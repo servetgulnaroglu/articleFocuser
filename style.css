@@ -1,0 +1,82 @@
+
+body {
+         font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+
+}
+
+#title {
+        color : green;
+}
+#container{
+        padding : 20px;
+        margin-left : 100px;
+        width : 75%;
+}
+#textPlace {
+          color : rgba(0, 128, 0, 0.6);
+          margin-left : 10px;
+          max-height : 20px;
+          width:100%;
+          margin-top:5px;
+          height:20px;
+          overflow-y: scroll;
+          max-width: 100%;
+}
+[contentEditable=true]:empty:not(:focus):before{
+        content:attr(data-text)
+}
+div.data-text{
+        margin-left : 20px ;
+}
+#fontReseter{
+        margin-left: 20px;
+}
+#inside {
+       }
+.button {
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 2px #999;
+      }     
+.button:hover {background-color: #3e8e41}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+#laterText {
+        margin-left: 10px;
+        max-width: 850px;
+        text-align: justify; /* For Edge */
+        line-height: 200%;
+        letter-spacing: 1px;
+
+}
+#laterStyledText{
+        font-weight: bold;
+        font-size: 13px;
+}
+
+#text {
+        width = 926px;
+}
+
+#rightSide{
+        position: absolute;
+        right: 0px;
+        top: 170px;
+        width: 200px;
+        height: 300px;`
+        border: 3px solid green;
+}
+
+#speedDiv {
+        position: absolute;
+        right: 20px;
+}
